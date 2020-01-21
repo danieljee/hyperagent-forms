@@ -1,4 +1,5 @@
-function DelayedResource(xhr, options, data) {
+import Hyperagent from 'hyperagent';
+function DelayedResource(xhr, options, data?) {
   this.xhr = xhr;
   this._options = options;
 
@@ -15,4 +16,4 @@ DelayedResource.prototype.loadResource = function () {
   return resource;
 };
 
-export DelayedResource;
+export default DelayedResource;

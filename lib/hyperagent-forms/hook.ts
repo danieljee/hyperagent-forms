@@ -1,4 +1,5 @@
-import Form from 'hyperagent-forms/form';
+import Hyperagent from 'hyperagent';
+import Form from './form';
 
 function LoadHook(object) {
   var forms = object._forms;
@@ -11,4 +12,4 @@ function LoadHook(object) {
   }
 }
 
-export LoadHook;
+export default LoadHook;
