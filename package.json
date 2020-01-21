@@ -23,6 +23,7 @@
     "matchdep": "~0.1.1",
     "mocha": "^2.1.0"
   },
+  "main": "./dist/hyperagentForms.js",
   "engines": {
     "node": ">=0.8.0"
   },
